@@ -1,0 +1,10 @@
+Photosynthesis:The process by which green plants and some other organisms \n use sunlight to synthesize foods with the help of chlorophyl
+Cell:The smallest structural and functional unit of an organism
+Atom :The basic unit of a chemical element
+Plant:A living organism that typically grows in the ground
+Animal:A living organism that feeds on organic matter
+Mineral:A naturally occurring substance that is solid and inorganic
+Virus:A small infectious agent that replicates only inside living cells
+Heat:A form of energy that is transferred between systems or objects with \n different temperatures
+Light:Electromagnetic radiation that can be detected by the human eye
+Air:The invisible gaseous substance surrounding the earth

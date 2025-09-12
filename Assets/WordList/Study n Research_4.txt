@@ -1,0 +1,10 @@
+Methodology:A systematic plan or approach used in research \n to collect, analyze, and interpret data
+Literature Review:A comprehensive survey and evaluation of existing research \n on a specific topic to establish context and identify gaps
+Quantitative Research:A research method focused on numerical data \n and statistical analysis to measure phenomena and test hypotheses
+Qualitative Research:A research method emphasizing non-numerical data, \n such as interviews and observations, to explore concepts and experiences
+Ethnography:A qualitative research approach involving in-depth \n observation and study of cultures and communities in their natural settings
+Peer Review:A process in which experts in a field evaluate the quality, \n validity, and originality of research before publication
+Sampling:The process of selecting a subset of a population \n to represent the whole, ensuring the research is manageable and generalizable
+Hypothesis Testing:A process in research where a proposed explanation or prediction \n is evaluated using empirical data and statistical methods
+Longitudinal Study:A research design involving repeated observations of the same subjects \n over an extended period to track changes and trends
+Action Research:A participatory approach where researchers work collaboratively \n with participants to identify problems and implement solutions in real-time

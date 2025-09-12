@@ -1,0 +1,10 @@
+Algorithm:A step-by-step procedure or formula for solving a problem \n or performing a task, often used in programming and data processing
+Data Structure:A specialized format for organizing, storing, \n and managing data efficiently for specific operations
+Machine Learning:A subset of artificial intelligence focused on enabling computers \n to learn patterns and make decisions based on data without explicit programming
+Blockchain:A decentralized, secure ledger technology used \n to record transactions across multiple systems in a transparent and tamper-proof way
+Big Data:Extremely large datasets that require advanced tools \n and techniques to process, analyze, and extract meaningful insights
+Cloud Computing:The delivery of computing services, such as storage, processing, \n and networking, over the internet on a pay-as-you-go basis
+Cybersecurity:The practice of protecting systems, networks, \n and data from cyber threats, attacks, and unauthorized access
+Quantum Computing:A field of computing based on quantum mechanics principles, \n aiming to perform operations far faster than classical computers
+DevOps:A set of practices that combines software development \n and IT operations to shorten the development lifecycle and improve reliability
+Internet of Things:A network of physical devices embedded with sensors, \n software, and connectivity to collect and exchange data in real-time

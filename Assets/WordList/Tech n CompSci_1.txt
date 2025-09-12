@@ -1,0 +1,10 @@
+Algorithm:A set of well-defined, step-by-step instructions or rules designed \n to perform a specific task or solve a problem
+Database:An organized collection of structured information or data, typically \n stored electronically in a computer system
+Network:Collection of interconnected devices, such as computers, servers, and \n routers, that can communicate with each other to share resources and information
+Interface:A point of interaction between two systems, devices, or components, \n allowing them to communicate and work together
+File:A collection of data or information that has a name, called the file name
+Code:Instructions for a computer
+Program:A series of coded software instructions to control the operation \n of a computer or other machine
+Bug:An error, flaw, failure, or fault in a computer program
+App:A self-contained program or piece of software designed to fulfill \n a particular purpose
+Server:A computer or system that provides resources, data, services, or \n programs to other computers

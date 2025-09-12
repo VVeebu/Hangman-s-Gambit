@@ -1,0 +1,20 @@
+Citation:A reference to a published or \n unpublished source
+Variable:An element, feature, or factor \n that is liable to vary or change
+Data:Facts and statistics collected together \n for reference or analysis
+Survey:A method of gathering information \n from individuals
+Sample:A small part or quantity intended \n to show what the whole is like
+Focus:The main topic or area of interest \n being studied or investigated
+Group:A collection of individuals or subjects \n who are observed, studied, or treated together in a research setting
+Case:A detailed analysis or examination of a single instance, \n event, individual, or group within a larger context
+Note:Written observations, comments, or annotations \n made by people during the course of a study
+Record:Documentation of data, observations, and \n information collected during a research study
+
+
+
+
+
+
+
+
+
+

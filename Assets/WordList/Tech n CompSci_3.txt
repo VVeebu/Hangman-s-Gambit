@@ -1,0 +1,10 @@
+Artificial Intelligence:The simulation of human intelligence processes by machines, especially computer system
+Compiler:A program that translates code written in a high-level programming language \n into machine code that can be executed by a computer's CPU
+Source:Software for which the original source code is made freely available and may be redistributed and modifie
+Turing complete: Describing a system of data manipulation rules (such as a programming \n language or cellular automaton) that can simulate any Turing machine.
+Distributed Systems:A system of multiple computers that appear to the user as a single coherent system
+Cryptography:The art of writing or solving codes
+Networks:Computing systems inspired by the biological neural networks that constitute animal brains
+Blockchain:A system in which a record of transactions made in bitcoin or another \n cryptocurrency is maintained across several computers that are linked in a peer-to-peer network
+Hypervisor:Software, firmware, or hardware that creates and runs virtual machines
+Refactoring:The process of restructuring existing computer code without changing \n its external behavior

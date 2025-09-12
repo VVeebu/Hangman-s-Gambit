@@ -1,0 +1,10 @@
+Cybersecurity:The practice of protecting systems, networks, and programs from digital attacks
+Elearning:A type of artificial intelligence that allows software applications to \n become more accurate at predicting outcomes
+Encryption:The process of converting information or data into a code to \n prevent unauthorized access
+Framework:Foundational structure or set of pre-written code that provides \n a standard way to build and deploy applications
+Backend:The part of a computer system or application that is not directly \n accessed by the user, typically responsible for storing and manipulating data
+Frontend:The part of a computer system or application with which the user interacts directly
+API:Application Programming Interface, a set of tools for building application software
+Module:A self-contained unit of a computer program that has a well-defined \n interface to the other units
+Platform:A group of technologies that are used as a base upon which other \n applications, processes, or technologies are developed
+Script:A set of commands that are executed by a certain program or scripting engine

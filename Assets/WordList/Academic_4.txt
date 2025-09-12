@@ -1,0 +1,10 @@
+Epistemology:The branch of philosophy concerned with the theory of knowledge, \n focusing on the nature, origin, and limits of human understanding
+Ontology:The philosophical study of the nature of being, existence, or reality, \n as well as the categories of being and their relations
+Heuristics:Techniques or strategies used to solve problems and make decisions efficiently, \n often serving as shortcuts that simplify complex processes
+Hermeneutics:The discipline of interpreting texts, especially literary, philosophical, and religious works, \n emphasizing the uncovering of meaning within context
+Metacognition:Awareness and understanding of one’s own thought processes, \n often described as "thinking about thinking"
+Paradigm:A framework or model of thought that shapes scientific inquiry \n and intellectual approaches within a particular discipline
+Empiricism:The philosophical stance emphasizing that knowledge is primarily derived \n from sensory experience and observation
+Phenomenology:The study of structures of consciousness and experience, \n focusing on phenomena as they appear to the human mind
+Positivism:A philosophical system recognizing only observable phenomena \n and facts verified through empirical science as legitimate knowledge
+Dialectics:A method of reasoning and argument that seeks to resolve contradictions \n and synthesize opposing ideas into a coherent whole

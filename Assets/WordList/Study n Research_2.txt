@@ -1,0 +1,10 @@
+Abstract:A summary of a research article, thesis, \n review, or other scientific document
+Qualitative:Relating to, measuring, or measured by \n the quality of something rather than its quantity
+Bibliography:A list of the books referred to in \n a scholarly work
+Method:The systematic process or approach used to conduct research
+Finding:The results or outcomes obtained from the research
+CoPilot:A small scale preliminary study \n conducted before the main research
+Measure:Ascertain the size, amount, or degree of something
+Code:A system of words, letters, figures, or symbols \n used to represent other
+Evidence:The information or data collected during research \n that supports or refutes a hypothesis, claim, or theory
+Heuristic: A problem-solving approach or method \n that employs a practical and experiential technique to \n quickly generate solutions

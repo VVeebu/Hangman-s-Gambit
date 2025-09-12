@@ -1,0 +1,10 @@
+Circuit:A closed path through which an \n electric current flows or may flow
+Robotics:The branch of technology that \n deals with the design, construction, \n operation, and application of robots
+Energy: The ability to perform work or \n produce changes in technical systems
+Machine:An apparatus using mechanical power \n and having several parts
+Design:The process of planning and creating \n technical solutions to meet a specific need \n or solve a problem
+Build:To construct by putting \n parts or material together
+Tool: Instruments or devices used to \n facilitate work or processes
+Gear : Engine components are wheel-shaped with gears \n around them that are used to transmit power between two rotating shafts
+Bearing : Mechanical components that support relative \n motion between two parts, usually by minimizing friction
+Robot:A machine capable of carrying out a complex series of actions automatically

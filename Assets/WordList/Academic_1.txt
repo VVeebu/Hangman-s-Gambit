@@ -1,0 +1,10 @@
+Thesis:A statement put forward \n to be maintained or proved
+Hypothesis:A proposed explanation or prediction \n for a phenomenon or a relationship between variables \n that can be tested through research and experimentation
+Data: Factual information, such as measurements \n or statistics, collected for analysis and used to make \n decisions or conclusions
+Essay:A short piece of writing on a particular subject
+Theory:A well-substantiated explanation of some aspect \n of the natural world that is based on a body of evidence \n and repeated testing
+Study:The devotion of time and attention \n to gaining knowledge of a subject
+Test:A method of evaluating knowledge, skills, \n or abilities through questions, exercises, or practical tasks
+Concept:A fundamental building block of theories \n and understanding, used to explain and categorize knowledge \n in various field
+Student:A person who is studying at a school or college
+Analitycal:Using a logical method of thinking about something in order to understand it

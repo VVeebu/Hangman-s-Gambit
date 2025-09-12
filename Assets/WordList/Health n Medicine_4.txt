@@ -1,0 +1,10 @@
+Anatomy:The study of the structure and organization of living organisms, \n focusing on the physical form and arrangement of body parts
+Pathology:The branch of medicine concerned with the study of disease, \n its causes, mechanisms, and effects on the body
+Pharmacology:The science of drugs, including their composition, effects, \n mechanisms of action, and therapeutic uses
+Epidemiology:The study of the distribution and determinants of health-related states \n or events in populations, and the application of this knowledge to control diseases
+Physiology:The branch of biology that studies the functions and processes \n of living organisms and their parts
+Immunology:The study of the immune system, focusing on how the body defends \n itself against pathogens and the mechanisms of immune response
+Oncology:The branch of medicine dealing with the prevention, diagnosis, \n and treatment of cancer
+Neuroscience:The scientific study of the nervous system, including its structure, \n functions, and disorders
+Homeostasis:The process by which living organisms maintain a stable internal environment \n despite changes in external conditions
+Biostatistics:The application of statistical methods to biological and medical research, \n essential for analyzing data and drawing valid conclusions

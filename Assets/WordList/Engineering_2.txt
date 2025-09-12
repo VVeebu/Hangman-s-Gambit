@@ -1,0 +1,10 @@
+Thermodynamic:The branch of physical science that deals \n with the relations between heat and other forms of energy
+Structural:The determination of the effects of loads \n on physical structures and their components
+Nanotechnology:Technology that deals with dimensions \n and tolerances of less than 100 nanometers
+Automation:The use of technology and systems to carry out tasks \n or processes automatically without human intervention
+Engine:A machine with moving parts that converts power into motion
+Software:The programs and other operating information \nused by a computer
+Model:A representation or simulation of a physical system \n or process used for analysis and design
+System:A set of connected things or parts forming a complex whole
+Device:A thing made or adapted for a particular purpose
+Sensor:A device that detects or measures a physical property \n and records, indicates, or otherwise responds to it

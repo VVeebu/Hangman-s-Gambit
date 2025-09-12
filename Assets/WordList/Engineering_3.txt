@@ -1,0 +1,10 @@
+Anisotropy:Material properties that exhibit different ]n characteristics depending on the direction of measurement
+Electrophoresis:A technique used to separate charged particles \n based on their size and electrical charge, using an electric field
+Photolithography:Technique to create complex patterns \n on silicon wafers using photoresist and UV light
+Superconductivity:A phenomenon in which a material exhibits zero resistance to electric \n current when cooled below a certain critical temperature
+Piezoelectricity:Properties of some materials that generate electrical \n voltage in response to mechanical stress or deformation
+Optoelectronics:Study and application of devices \n that combine electronics and light
+Magnetohydrodynamics:Model of electrically conducting fluids that treats all \n interpenetrating particle species together as a \n single continuous medium
+Tribology:A science that studies friction, wear, \n and lubrication between moving surfaces
+Mechatronics:A multidisciplinary field that integrates \n mechanical systems with electronics and software to \n create smarter products and processes.
+Aerodynamics:A branch of science that studies the behavior \n and interactions between solid bodies and other air or gases in motion

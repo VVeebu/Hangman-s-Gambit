@@ -1,0 +1,10 @@
+Astrophysics:The branch of astronomy that applies the principles of physics \n to understand celestial objects and phenomena in the universe
+Biochemistry:The study of chemical processes and substances \n that occur within living organisms, bridging biology and chemistry
+Geology:The science of the Earth's physical structure, history, \n and processes, including the study of rocks, minerals, and tectonics
+Ecology:The branch of biology that studies the relationships \n between organisms and their environment, including ecosystems and biodiversity
+Quantum Mechanics:A fundamental theory in physics describing the behavior \n of matter and energy on the atomic and subatomic scale
+Genetics:The study of genes, heredity, and the variation of traits \n in living organisms, including DNA and inheritance mechanisms
+Meteorology:The science of the atmosphere, focusing on weather processes, \n forecasting, and climate patterns
+Oceanography:The study of the Earth's oceans, including their physical, \n chemical, biological, and geological properties
+Paleontology:The study of the history of life on Earth through the examination \n of fossils and ancient organisms
+Thermodynamics:The branch of physical science concerned with heat, energy, \n and the principles governing their interactions and transformations

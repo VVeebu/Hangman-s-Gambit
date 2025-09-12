@@ -1,0 +1,10 @@
+Pathology:The science of the causes \ and effects of diseases
+Cardiology:The branch of medicine that deals with diseases \n and abnormalities of the heart
+Psychiatry:The study and treatment of \n mental illness, emotional disturbance, \n and abnormal behavior
+Vaccine:A substance used to stimulate \n the production of antibodies and \n provide immunity against diseases
+Therapy:Treatment intended to relieve \n or heal a disorder
+Symptom:A physical or mental feature \n that is regarded as indicating a condition \n of disease
+Disease:A disorder of structure or function \n in a human, animal, or plant
+Patient:A person receiving or registered \n to receive medical treatment
+Clinic:A place or hospital department \n where outpatients are given medical treatment
+Immune:Resistant to a particular infection or toxin

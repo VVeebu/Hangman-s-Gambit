@@ -1,0 +1,10 @@
+Capitalism:An economic system characterized by private ownership of resources \n and production, where goods and services are produced for profit \n in competitive markets
+Monetarism:An economic theory emphasizing the role of governments \n in controlling the money supply to manage inflation and economic stability
+Keynesianism:An economic approach advocating for government intervention \n to stabilize the economy through fiscal and monetary policies \n during periods of economic fluctuation
+Externality:A cost or benefit arising from an economic activity \n that affects third parties who did not choose to incur that cost or benefit
+Pareto Efficiency:A state of resource allocation where no individual can be made better off \n without making someone else worse off, representing optimal efficiency
+Arbitrage:The practice of exploiting price differences between markets \n to achieve risk-free profits through simultaneous buying and selling
+Oligopoly:A market structure dominated by a small number of firms, \n where competition is limited and strategic interactions influence market outcomes
+Marginal Utility:The additional satisfaction or benefit gained \n from consuming one more unit of a good or service
+Game Theory:A mathematical framework for analyzing strategic interactions \n among rational decision-makers in competitive or cooperative scenarios
+Laffer Curve:A theoretical representation of the relationship between tax rates \n and government revenue, illustrating the potential effects of taxation \n on economic activity

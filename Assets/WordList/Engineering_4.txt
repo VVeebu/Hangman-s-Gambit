@@ -1,0 +1,10 @@
+Thermodynamics:The branch of physics that deals with the relationships between heat, \n work, energy, and efficiency in mechanical systems
+Fluid Mechanics:The study of fluids (liquids and gases) in motion and at rest, \n focusing on the forces and behaviors affecting fluid flow
+Control Systems:A field of engineering dealing with the modeling, analysis, \n and regulation of dynamic systems to achieve desired performance
+Finite Element Method:A numerical technique for solving complex engineering problems \n by breaking down structures into smaller, simpler parts (elements)
+Stress Analysis:The study of internal forces and stresses in materials \n subjected to external loads, crucial for ensuring structural integrity
+Mechatronics:An interdisciplinary field combining mechanical engineering, \n electronics, computer science, and control systems for designing automated solutions
+Structural Engineering:A discipline within civil engineering focused on the analysis \n and design of buildings, bridges, and other structures to ensure stability and safety
+Heat Transfer:The study of thermal energy movement through conduction, \n convection, and radiation, essential for designing efficient thermal systems
+CAD:Computer-Aided Design, the use of computer software to create, modify, \n analyze, and optimize engineering designs
+Kinematics:The branch of mechanics concerned with the motion of objects \n without considering the forces that cause the motion

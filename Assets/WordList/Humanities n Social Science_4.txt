@@ -1,0 +1,10 @@
+Anthropology:The study of humans, their societies, cultures, and development, \n both past and present, focusing on diversity and commonalities
+Sociology:The scientific study of society, social relationships, \n institutions, and patterns of behavior
+Ethnography:A qualitative research method involving the immersive observation \n and study of people and cultures in their natural environments
+Historiography:The study of historical writing and methodologies, \n analyzing how history is recorded and interpreted
+Linguistics:The scientific study of language, including its structure, \n development, and social use across cultures
+Political Science:The study of systems of governance, political activities, \n ideologies, and behavior in societies
+Philosophy:The exploration of fundamental questions about existence, knowledge, \n ethics, and reasoning through critical thinking and argumentation
+Psychology:The scientific study of the mind and behavior, \n exploring processes like perception, cognition, and emotion
+Archaeology:The study of human history and prehistory through the excavation \n and analysis of artifacts, structures, and cultural remains
+Critical Theory:A framework for analyzing and critiquing cultural, social, \n and political structures, aiming to uncover power dynamics and inequalities
