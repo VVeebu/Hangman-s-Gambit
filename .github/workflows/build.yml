@@ -52,7 +52,7 @@ jobs:
 
     - name: Build executable with PyInstaller
       run: |
-        pyinstaller --name HangmansGambit --onefile --windowed --add-data "Assets:Assets" "Hangman's Gambit.py"
+        pyinstaller --name HangmansGambit --onefile --windowed --add-data "Assets:Assets" --hidden-import "PIL._tkinter_finder" "Hangman's Gambit.py"
 
     - name: Prepare artifact for release
       run: |
