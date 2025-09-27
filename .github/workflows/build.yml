@@ -52,11 +52,12 @@ jobs:
 
     - name: Build executable with PyInstaller
       run: |
-        pyinstaller --name HangmansGambit \
-                    --onefile \
-                    --windowed \
-                    --add-data "Assets:Assets" \
-                    "Hangman's Gambit.py"
+        pyinstaller --name HangmansGambit ^
+          --onefile ^
+          --windowed ^
+          --add-data "Assets:Assets" ^
+          your_main_script_name.py
+      shell: cmd
 
     - name: Prepare artifact for release
       run: |

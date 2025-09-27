@@ -33,7 +33,7 @@ The easiest way to play is to download the latest pre-built version for your ope
 If you want to run the game from the source code, follow these steps.
 
 ### Prerequisites
-- **Python 3.8** or newer.
+- **Python 3.13** or newer.
 
 - **pip** (Python's package installer).
 
