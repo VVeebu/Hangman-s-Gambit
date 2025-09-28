@@ -3,6 +3,7 @@ from PIL import Image, ImageTk, ImageDraw, ImageFont
 import os
 import random
 import pygame
+import sys
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -20,6 +21,13 @@ def SetBackground(master, path):
     background.image = photo
     background.place(x=0, y=0, relwidth=1, relheight=1)
 
+# Maximize Window to Fullscreen accross all platforms
+def maximize_window(window):
+    if sys.platform == "linux":
+        window.attributes("-fullscreen", True)
+    else:
+        window.state('zoomed')
+        
 #Font To Image
 def create_text_image(text, font_path, font_size, color, bg_color, size):
     font = ImageFont.truetype(font_path, font_size)
@@ -139,8 +147,7 @@ class StartMenu:
         self.master = master
         master.configure(bg='')
         master.title("Hangman's Gambit")
-        master.state('zoomed')
-
+        maximize_window(master)
         
         Rocabe = relative_path("Assets/Fonts/RocabeTrialRegular-OGMep.ttf")
         Arcade = relative_path("Assets/Fonts/KarmaticArcade-6Yrp1.ttf")
@@ -205,7 +212,7 @@ class StartMenu:
             font_size=20,
             color="white",
             bg_color=("#12022b"),
-            size=(850, 150)
+            size=(175, 75)
         )
 
         self.button1 = tk.Button(
@@ -213,20 +220,22 @@ class StartMenu:
             image=startButton, 
             command=transition, 
             width=175, height=75, 
-            bg='#12022b', 
             relief="flat",
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0,
+            bg='#12022b', 
+            activebackground='#12022b'
         )
         self.button1.image = startButton
         self.button1.place(relx=0.5, rely=0.75, anchor='center')
-        
+
         exitButton = create_text_image(
             text="Exit",
             font_path=Rocabe,
             font_size=20,
             color="white",
             bg_color=("#12022b"),
-            size=(850, 150)
+            size=(175, 75)
         )
 
         self.button2 = tk.Button(
@@ -234,9 +243,11 @@ class StartMenu:
             image=exitButton, 
             command=destroy, 
             width=175, height=75, 
-            bg='#12022b', 
             relief="flat",
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0,
+            bg='#12022b',
+            activebackground='#12022b'
         )
         self.button2.image = exitButton
         self.button2.place(relx=0.5, rely=0.85, anchor='center')
@@ -247,7 +258,7 @@ class UserLogin:
         self.master = master
         master.configure(bg='grey')
         master.title("Hangman's Gambit")
-        master.state('zoomed')
+        maximize_window(master)
 
         frame1 = tk.Frame(master)
         frame1.place(relx=0.5, rely=0.5, anchor="center", relwidth=1, relheight=1)
@@ -312,7 +323,7 @@ class UserLogin:
             font_size=25,
             color="white",
             bg_color=("#12022b"),
-            size=(850, 350)
+            size=(115, 75)
         )
 
         self.button_login = tk.Button(
@@ -321,8 +332,10 @@ class UserLogin:
             command=login, 
             width=115, 
             height=75, 
-            bg='#FF00FF',  
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0,
+            bg='#FF00FF',
+            activebackground='#FF00FF'
         )
         self.button_login.image = LoginButton
         self.button_login.place(relx=0.7, rely=0.55, anchor='center')
@@ -333,7 +346,7 @@ class UserLogin:
             font_size=25,
             color="white",
             bg_color=("#12022b"),
-            size=(850, 350)
+            size=(225, 75)
         )
 
         self.button_login = tk.Button(
@@ -342,8 +355,10 @@ class UserLogin:
             command=gotoleaderboard, 
             width=255, 
             height=75, 
-            bg='#FF00FF',  
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0, 
+            bg='#FF00FF', 
+            activebackground='#FF00FF'
         )
         self.button_login.image = LeaderButton
         self.button_login.place(relx=0.7, rely=0.65, anchor='center')
@@ -353,7 +368,7 @@ class Leaderboard:
         self.master = master
         master.configure(bg='white')
         master.title("Hangman's Gambit")
-        master.state('zoomed')
+        maximize_window(master)
         frame1 = tk.Frame(master)
         frame1.place(relx=0.5, rely=0.5, anchor="center", relwidth=1, relheight=1)
         
@@ -417,16 +432,18 @@ class Leaderboard:
             font_size=20,
             color="white",
             bg_color=("#12022b"),
-            size=(850, 150)
+            size=(175, 75)
         )
         self.button2 = tk.Button(
             frame1, 
             image=exitButton, 
             command=transition, 
             width=175, height=75, 
-            bg='#12022b', 
             relief="flat",
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0,
+            bg='#12022b', 
+            activebackground='#12022b'
         )
         self.button2.image = exitButton
         self.button2.place(relx=0.5, rely=0.75, anchor='center')
@@ -462,7 +479,7 @@ class SelectCategory:
         self.master = master
         master.configure(bg='white')
         master.title("Hangman's Gambit")
-        master.state('zoomed')
+        maximize_window(master)
         frame1 = tk.Frame(master)
         frame1.place(relx=0.5, rely=0.5, anchor="center", relwidth=1, relheight=1)
         
@@ -531,7 +548,7 @@ class SelectCategory:
                 font_size=40,
                 color="white",
                 bg_color=("#12022b"),
-                size=(850, 150)
+                size=(175, 75)
             )
 
             self.label_name = tk.Label(frame1, image=TextforLogin, borderwidth=0)
@@ -576,7 +593,7 @@ class LevelSelection:
         self.master = master
         self.category = category
         master.title("Choose Level")
-        master.state('zoomed')
+        maximize_window(master)
 
         frame1 = tk.Frame(master)
         frame1.place(relx=0.5, rely=0.5, anchor="center", relwidth=1, relheight=1)
@@ -609,7 +626,7 @@ class LevelSelection:
             font_size=45, 
             color="white",
             bg_color="#73994C",
-            size=(350, 850) 
+            size=(250, 150) 
         ) 
         self.button_easy = tk.Button(
             frame1,
@@ -619,7 +636,9 @@ class LevelSelection:
             height=150,
             relief="flat", 
             borderwidth=0,
-            bg='#73994C'
+            highlightthickness=0,
+            bg='#73994C',
+            activebackground='#73994C'
         )
         self.button_easy.image = EasyButton
         self.button_easy.place(relx=0.25, rely=0.415, anchor="center")  
@@ -631,7 +650,7 @@ class LevelSelection:
             font_size=40,
             color="white",
             bg_color="#E78A33",
-            size=(360, 850)
+            size=(252, 150)
         )
         self.button_medium = tk.Button(
             frame1,
@@ -641,7 +660,9 @@ class LevelSelection:
             height=150,
             relief="flat", 
             borderwidth=0,
-            bg='#E78A33'
+            highlightthickness=0,
+            bg='#E78A33',
+            activebackground='#E78A33'
         )
         self.button_medium.image = MediumButton
         self.button_medium.place(relx=0.5, rely=0.419, anchor='center')  
@@ -653,7 +674,7 @@ class LevelSelection:
             font_size=48,
             color="white",
             bg_color="#D74531",
-            size=(330, 850)
+            size=(230, 150)
         )
         self.button_hard = tk.Button(
             frame1,
@@ -663,7 +684,9 @@ class LevelSelection:
             height=150, 
             relief="flat",
             borderwidth=0,
-            bg='#D74531'
+            highlightthickness=0,
+            bg='#D74531',
+            activebackground='#D74531'
         )
         self.button_hard.image = HardButton
         self.button_hard.place(relx=0.75, rely=0.415, anchor='center')
@@ -675,7 +698,7 @@ class LevelSelection:
             font_size=48,
             color="white",
             bg_color="#7a37e6",
-            size=(330, 850)
+            size=(230, 150)
         )
         self.button_expert = tk.Button(
             frame1,
@@ -685,7 +708,9 @@ class LevelSelection:
             height=150, 
             relief="flat",
             borderwidth=0,
-            bg='#7a37e6'
+            highlightthickness=0,
+            bg='#7a37e6',
+            activebackground='#7a37e6'
         )
         self.button_expert.image = ExpertButton
         self.button_expert.place(relx=0.5, rely=0.75, anchor='center')
@@ -733,7 +758,7 @@ class MainGame:
         self.category = category
         master.configure(bg='grey')
         master.title(f"Hangman's Gambit - {category} {level}")
-        master.state('zoomed')
+        maximize_window(master)
         
         frame1 = tk.Frame(master)
         frame1.place(relx=0.5, rely=0.5, anchor="center", relwidth=1, relheight=1)
@@ -860,7 +885,7 @@ class MainGame:
                 font_size=20,
                 color="white",
                 bg_color="#9D7DE6",
-                size=(100, 100)
+                size=(25, 25)
             )
 
 
@@ -875,11 +900,13 @@ class MainGame:
                 command=lambda k=key: on_key_press(k),
                 width=25,
                 height=25,
+                relief='flat',
                 borderwidth=0,
                 highlightthickness=0,
                 bg='#12022b',
                 activebackground='#12022b'
             )
+            
             button.image = Letter
             button.place(relx=x_offset, rely=y_offset)
             
@@ -941,7 +968,7 @@ class WinWindow:
     def __init__(self, master, LoadDefs, chosenwords, level):
         self.master = master
         master.title("You Win! Hurray!!")
-        master.state('zoomed')
+        maximize_window(master)
         
         frame1 = tk.Frame(master)                                                                                                                          
         frame1.place(relx=0.5, rely=0.5, anchor="center", relwidth=1, relheight=1)
@@ -987,7 +1014,7 @@ class WinWindow:
             font_size=20,
             color="white",
             bg_color=("#c9286a"),
-            size=(170, 150)
+            size=(150, 50)
         )
         self.button_again = tk.Button(
             frame1,
@@ -995,9 +1022,11 @@ class WinWindow:
             command=self.GoBackToLevel,
             width=150,
             height=50,
-            bg='#c9286a', 
             relief="flat", 
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0,
+            bg='#c9286a', 
+            activebackground='#c9286a'
         )
         self.button_again.image = PlayAgainButton
         self.button_again.place(relx=0.545, rely=0.78, anchor='center')
@@ -1008,7 +1037,7 @@ class WinWindow:
             font_size=20,
             color="white",
             bg_color=("#7217c1"),
-            size=(170, 50)
+            size=(150, 50)
         )
         self.button_menu = tk.Button(
             frame1,
@@ -1016,9 +1045,11 @@ class WinWindow:
             command=self.GoBackToMainMenu,
             width=150,
             height=50,
-            bg='#7217c1', 
             relief="flat", 
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0,
+            bg='#7217c1', 
+            activebackground='#7217c1'
         )
         self.button_menu.image = MainMenuButton
         self.button_menu.place(relx=0.7, rely=0.78, anchor='center')
@@ -1039,7 +1070,7 @@ class LoseWindow:
     def __init__(self, master, LoadDefs, chosenwords):
         self.master = master
         master.title("You Lost! Oh No :(")
-        master.state('zoomed')
+        maximize_window(master)
         
         frame1 = tk.Frame(master)
         frame1.place(relx=0.5, rely=0.5, anchor="center", relwidth=1, relheight=1)
@@ -1079,7 +1110,7 @@ class LoseWindow:
             font_size=20,
             color="white",
             bg_color=("#c9286a"),
-            size=(170, 150)
+            size=(150, 50)
         )
         self.button_again = tk.Button(
             frame1,
@@ -1087,9 +1118,11 @@ class LoseWindow:
             command=self.GoBackToLevel,
             width=150,
             height=50,
-            bg='#c9286a', 
             relief="flat", 
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0,
+            bg='#c9286a', 
+            activebackground='#c9286a'
         )
         self.button_again.image = PlayAgainButton
         self.button_again.place(relx=0.545, rely=0.78, anchor='center')
@@ -1100,7 +1133,7 @@ class LoseWindow:
             font_size=20,
             color="white",
             bg_color=("#7217c1"),
-            size=(170, 50)
+            size=(150, 50)
         )
         self.button_menu = tk.Button(
             frame1,
@@ -1108,9 +1141,11 @@ class LoseWindow:
             command=self.GoBackToMainMenu,
             width=150,
             height=50,
-            bg='#7217c1', 
             relief="flat", 
-            borderwidth=0
+            borderwidth=0,
+            highlightthickness=0,
+            bg='#7217c1', 
+            activebackground='#7217c1'
         )
         self.button_menu.image = MainMenuButton
         self.button_menu.place(relx=0.7, rely=0.78, anchor='center')
